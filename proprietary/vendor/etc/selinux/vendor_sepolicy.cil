@@ -4671,6 +4671,7 @@
 (allow vendor_per_proxy vendor_per_mgr_service (service_manager (find)))
 (allow vendor_per_proxy vndbinder_device_33_0 (chr_file (ioctl read write getattr lock append map open watch watch_reads)))
 (allow vendor_per_proxy vndservicemanager_33_0 (binder (call transfer)))
+(allow vendor_per_proxy vndservicemanager_33_0 (service_manager (list)))
 (allow vndservicemanager_33_0 vendor_per_proxy (dir (search)))
 (allow vndservicemanager_33_0 vendor_per_proxy (file (read map open)))
 (allow vndservicemanager_33_0 vendor_per_proxy (process (getattr)))
