@@ -271,6 +271,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
+    vendor/lenovo/J607Z/proprietary/vendor/etc/vintf/manifest/com.qualcomm.qti.dpm.api@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/com.qualcomm.qti.dpm.api@1.0.xml \
+    vendor/lenovo/J607Z/proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.3-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.3-service-qti.xml \
+    vendor/lenovo/J607Z/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml \
+    vendor/lenovo/J607Z/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/hw/init.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.rc \
