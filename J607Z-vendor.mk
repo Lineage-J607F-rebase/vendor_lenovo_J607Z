@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/lenovo/J607Z/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
     vendor/lenovo/J607Z/proprietary/vendor/bin/hw/android.hardware.power-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power-service-qti \
-    # vendor/lenovo/J607Z/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal removed - replaced by @2.0-service.mock \
     vendor/lenovo/J607Z/proprietary/vendor/bin/hw/android.hardware.usb@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.3-service-qti \
     vendor/lenovo/J607Z/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/lenovo/J607Z/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
