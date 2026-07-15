@@ -258,7 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.power-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service-qti.rc \
-    # vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc removed - replaced by @2.0-service.mock \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.usb@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service-qti.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/lenovo/J607Z/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
