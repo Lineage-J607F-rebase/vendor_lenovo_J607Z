@@ -1217,46 +1217,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/adsp_loader_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/adsp_loader_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/apr_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/apr_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/bolero_cdc_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bolero_cdc_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/cirrus_cs35l41_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_cs35l41_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/cirrus_wm_adsp_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/cirrus_wm_adsp_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/hdmi_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/hdmi_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/llcc_perfmon.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/llcc_perfmon.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/machine_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/machine_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/mbhc_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mbhc_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.softdep \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/native_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/native_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/pinctrl_lpi_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl_lpi_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/platform_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/platform_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/q6_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/q6_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/q6_notifier_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/q6_notifier_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/q6_pdr_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/q6_pdr_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rmnet_perf.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rmnet_shs.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/rx_macro_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rx_macro_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/snd_event_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd_event_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/stub_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/stub_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/swr_ctrl_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/swr_ctrl_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/swr_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/swr_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/tx_macro_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tx_macro_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/usf_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/usf_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/va_macro_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/va_macro_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wcd937x_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd937x_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wcd937x_slave_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd937x_slave_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wcd938x_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd938x_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wcd938x_slave_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd938x_slave_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wcd9xxx_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd9xxx_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wcd_core_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd_core_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wsa881x_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wsa881x_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wsa883x_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wsa883x_dlkm.ko \
-    vendor/lenovo/J607Z/proprietary/vendor/lib/modules/wsa_macro_dlkm.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wsa_macro_dlkm.ko \
     vendor/lenovo/J607Z/proprietary/vendor/lib/rfsa/adsp/Elevoc_vocplus_capi2.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/Elevoc_vocplus_capi2.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so \
