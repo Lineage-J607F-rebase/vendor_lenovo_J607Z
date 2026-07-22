@@ -1453,10 +1453,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.soundtrigger@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger@2.3.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.tetheroffload.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.config@1.0.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.control@1.0.so \
-    vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.usb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.0.so \
-    vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.usb@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.1.so \
-    vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.usb@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.2.so \
-    vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.usb@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.3.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.vibrator-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.vibrator-V1-ndk.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.0.so \
     vendor/lenovo/J607Z/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.0.so \
