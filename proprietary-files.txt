@@ -130,8 +130,6 @@ vendor/lib/android.hardware.bluetooth.audio@2.1.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
 vendor/lib/hw/android.hardware.audio@6.0-impl.so
-vendor/lib/hw/audio.bluetooth.default.so
-vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/hw/audio.r_submix.default.so
@@ -165,8 +163,6 @@ vendor/lib64/android.hardware.bluetooth.audio@2.1.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/audio.bluetooth.default.so
-vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.lito.so
 vendor/lib64/hw/audio.r_submix.default.so
