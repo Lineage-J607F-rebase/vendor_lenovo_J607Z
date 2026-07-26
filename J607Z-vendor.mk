@@ -638,10 +638,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.bin \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-diag.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-diag.wmfw \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
+    vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot.wmfw \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot1.bin \
+    vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot1.bin \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot2.bin \
+    vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot2.bin \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot3.bin \
+    vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot3.bin \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot4.bin \
+    vendor/lenovo/J607Z/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-revB2-dsp1-spk-prot4.bin \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/dbmd8_va_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dbmd8_va_fw.bin \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/lenovo/J607Z/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
