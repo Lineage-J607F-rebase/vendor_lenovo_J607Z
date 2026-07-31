@@ -24,3 +24,10 @@ service vendor.drm-widevine-hal-1-3 /vendor/bin/hw/android.hardware.drm@1.3-serv
     group media mediadrm drmrpc system
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks
+    disabled
+
+# widevine TA unavailable on this build: service crashes at boot, and 4
+# crashes before boot_completed trip sys.init.updatable_crashing which
+# wedges boot. Start it only after boot is complete.
+on property:sys.boot_completed=1
+    start vendor.drm-widevine-hal-1-3
