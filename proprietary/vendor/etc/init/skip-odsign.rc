@@ -1,0 +1,5 @@
+# Bringup workaround: qseecom TZ_OS_APP_START (0x72000101) fails for the
+# keymaster TA, so odsign never sets odsign.verification.done and
+# `on zygote-start` (wait_for_prop) wedges boot. Skip APEX verification.
+on early-init
+    setprop odsign.verification.done 1
