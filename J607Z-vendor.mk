@@ -10,7 +10,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     libcld80211 \
     libadsp_default_listener \
-    libadsprpc
+    libadsprpc \
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
+    android.hardware.gnss@2.1-service-qti.xml \
+    vendor.qti.gnss@4.0-service.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    c2_manifest_vendor.xml
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/build.prop:$(TARGET_COPY_OUT_VENDOR)/build.prop \

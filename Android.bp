@@ -76,3 +76,64 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+
+// VINTF fragments for prebuilt vendor HALs. These files existed in the
+// proprietary tree but were never installed (auto-generated J607Z-vendor.mk
+// skips vendor/etc/vintf/). Without them hwservicemanager rejects HAL
+// registration (nn@1.3 / gnss / drm widevine / media.c2), so the framework
+// sees these features as missing. Pattern from ref/FP4 (prebuilt_etc_xml +
+// filename_from_src + sub_dir vintf/manifest + soc_specific).
+
+prebuilt_etc_xml {
+    name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
+    owner: "lenovo",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
+    owner: "lenovo",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.gnss@2.1-service-qti.xml",
+    owner: "lenovo",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor.qti.gnss@4.0-service.xml",
+    owner: "lenovo",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
+    owner: "lenovo",
+    src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "c2_manifest_vendor.xml",
+    owner: "lenovo",
+    src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
