@@ -11,8 +11,8 @@ PRODUCT_PACKAGES += \
     libcld80211 \
     libadsp_default_listener \
     libadsprpc \
-    libjsoncpp \
-    libsqlite \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
     android.hardware.gnss@2.1-service-qti.xml \
