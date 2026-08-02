@@ -26,8 +26,9 @@ service vendor.drm-widevine-hal-1-3 /vendor/bin/hw/android.hardware.drm@1.3-serv
     writepid /dev/cpuset/foreground/tasks
     disabled
 
-# widevine TA unavailable on this build: service crashes at boot, and 4
-# crashes before boot_completed trip sys.init.updatable_crashing which
-# wedges boot. Start it only after boot is complete.
-on property:sys.boot_completed=1
-    start vendor.drm-widevine-hal-1-3
+# widevine TA unavailable on this build: the A13 blob links CBS_init which
+# the A16 VNDK libcrypto no longer exports, so the service dies at exec and
+# init restarts it in a 5s crash loop (sets sys.init.updatable_crashing).
+# Keep the VINTF declaration (drm services require it) but never start the
+# service: framework falls back to clearkey, identical to pre-boot state.
+# (prev: deferred start at boot_completed - still looped afterwards)

@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti.xml \
     vendor.qti.gnss@4.0-service.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    c2_manifest_vendor.xml
+    c2_manifest_vendor.xml \
+    vendor.qti.hardware.servicetracker@1.2-service.xml
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/vendor/build.prop:$(TARGET_COPY_OUT_VENDOR)/build.prop \
