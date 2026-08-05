@@ -25,13 +25,10 @@ service vendor.drm-widevine-hal-1-3 /vendor/bin/hw/android.hardware.drm@1.3-serv
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks
     capabilities SYS_NICE
-    setenv LD_PRELOAD /vendor/lib64/libcrypto_shim.so
 
-# Stock rc restored (matching gauguin), plus LD_PRELOAD of libcrypto_shim
-# (hardware/lineage/compat): the PE A13 libwvhidl@1.3.so links CBS_init which
-# A16 VNDK libcrypto no longer exports, and - unlike the xiaomi blob - its
-# DT_NEEDED lacks libcrypto_shim.so, so the linker never searches the shim.
-# LD_PRELOAD puts CBS_init/CBS_data/CBS_len into the global scope for this
-# process only (shim exports nothing else - no interpose side effects).
-# The earlier "never start" approach failed because hwservicemanager
-# interface_start overrides `disabled` and relaunched the service each second.
+# Stock rc (matches FP4/gauguin). libwvhidl@1.3.so now carries an explicit
+# DT_NEEDED libcrypto_shim.so (patchelf --add-needed, FP4 recipe) so the shim
+# (hardware/lineage/compat) is loaded in the same vendor namespace as the blob
+# and resolves CBS_init/CBS_data/CBS_len that A16 VNDK libcrypto no longer
+# exports. LD_PRELOAD was abandoned: bionic links preloads into the default
+# namespace, which the vendor-namespace blob cannot see.
