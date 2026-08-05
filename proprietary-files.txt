@@ -1428,17 +1428,6 @@ vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml
 vendor/etc/sec_config
 vendor/etc/seccomp_policy/qspm.policy
 vendor/etc/seccomp_policy/qti-systemd.policy
-vendor/etc/selinux/plat_pub_versioned.cil
-vendor/etc/selinux/plat_sepolicy_vers.txt
-vendor/etc/selinux/selinux_denial_metadata
-vendor/etc/selinux/vendor_file_contexts
-vendor/etc/selinux/vendor_hwservice_contexts
-vendor/etc/selinux/vendor_mac_permissions.xml
-vendor/etc/selinux/vendor_property_contexts
-vendor/etc/selinux/vendor_seapp_contexts
-vendor/etc/selinux/vendor_sepolicy.cil
-vendor/etc/selinux/vendor_service_contexts
-vendor/etc/selinux/vndservice_contexts
 vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_mixer_paths_cdp.xml
 vendor/etc/sound_trigger_mixer_paths_lagoonmtp.xml
